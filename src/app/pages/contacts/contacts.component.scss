@@ -1,0 +1,64 @@
+.container {
+    margin-left: 500px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    max-width: 1000px;
+    h1 {
+        max-width: 500px;
+        margin-bottom: 30px;
+    }
+    h2 {
+        color: var(--dark-blue);
+        margin: 0;
+        font-weight: bold;
+    }
+    .contacts {
+        .card1 {
+            grid-area: card1;
+        }
+        .card2 {
+            grid-area: card2;
+        }
+        .card3 {
+            grid-area: card3;
+        }
+        .card4 {
+            grid-area: card4;
+        }
+        .card5 {
+            grid-area: card5;
+        }
+        margin-top: 60px;
+        display: grid;
+        gap: 80px 40px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "card1 card2 ."
+            "card3 card4 card5";
+        .card {
+            max-width: 300px;
+            span {
+                display: block;
+            }
+        }
+    }
+}
+@media (max-width: 500px) {
+    .container {
+        padding: 30px;
+        margin-left: 0;
+        margin-top: 60px;
+        margin-bottom: 100px;
+        // max-width: 1000px;
+        h1 {
+            font-size: 36px;
+        }
+        .contacts {
+            display: block;
+            .card {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}

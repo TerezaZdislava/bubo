@@ -1,0 +1,291 @@
+<div>
+    <section class="about">
+        <div class="background"></div>
+        <div class="content">       
+            <div class="text">
+                <h1>Zahraniční přeprava zásilek</h1>
+                <h2>Profesionálně, výhodně a snadno</h2>
+                <span>Hledáte spolehlivého partnera pro přepravu dokumentů, balíčků, nebo palet? Už nemusíte. S námi máte zásilky všech běžných dopravců na jednom místě a na pár kliknutí.</span>
+                <span>Vyzkoušejte zdarma a bez závazků naší aplikaci</span>
+                <button class="button-violet">Chci vyzkoušet my BUBO<img src="../../../assets/icons/arrow-right-small.svg"></button>
+            </div>
+            <div class="images">
+                <!-- <div class="img1" style="border-radius: 20px; overflow: hidden;">
+                    <video width="1400" height="628" playsinline autoplay muted loop src="../../../assets/videos/warehouse.mp4" type="video/mp4"></video>
+                </div> -->
+                <img class="img1" src="../../../assets/photos/warehouse.png" alt="warehouse">
+                <img class="img2" src="../../../assets/photos/img2.png" alt="package transfer">
+                <img class="img3" src="../../../assets/photos/img3.png" alt="van">
+                <img class="img4" src="../../../assets/photos/plane.png" alt="airport">
+            </div>
+            <div class="logos">
+                <span>Přepravní partneři:</span>
+                <img class="img1" src="../../../assets/icons/fedex-logo.svg" alt="fedex-logo">
+                <img class="img1" src="../../../assets/icons/tnt-logo.svg" alt="tnt-logo">
+                <img class="img1" src="../../../assets/icons/dhl-logo.svg" alt="dhl-logo">
+                <img class="img1" src="../../../assets/icons/ups-logo.svg" alt="ups-logo">
+            </div>
+        </div>  
+    </section>
+    <section class="about-mobile">
+        <div class="background"></div>
+        <div class="images">
+            <img class="img1" src="../../../assets/photos/warehouse.png" alt="warehouse">
+            <img class="img2" src="../../../assets/photos/img2.png" alt="package transfer">
+            <img class="img4" src="../../../assets/photos/plane.png" alt="airport">
+        </div> 
+        <div class="content">      
+            <div class="text">
+                <h1>Zahraniční přeprava zásilek</h1>
+                <h2>Profesionálně, výhodně a snadno</h2>
+                <span>Hledáte spolehlivého partnera pro přepravu dokumentů, balíčků, nebo palet? Už nemusíte. S námi máte zásilky všech běžných dopravců na jednom místě a na pár kliknutí.</span>
+                <span>Vyzkoušejte zdarma a bez závazků naší aplikaci</span>
+                <button class="button-violet">Chci vyzkoušet my BUBO<img src="../../../assets/icons/arrow-right-small.svg"></button>
+            </div>
+            <div class="logos">
+                <span>Přepravní partneři:</span>
+                <div class="logo-box">
+                    <img class="img" src="../../../assets/icons/fedex-logo.svg" alt="fedex-logo">
+                    <img class="img" src="../../../assets/icons/tnt-logo.svg" alt="tnt-logo">
+                    <img class="img" src="../../../assets/icons/dhl-logo.svg" alt="dhl-logo">
+                    <img src="../../../assets/icons/ups-logo.png" alt="ups-logo">
+                </div>
+            </div>
+        </div>  
+    </section>
+    <section class="benefits">
+        <div class="images">
+            <img class="img1 square" src="../../../assets/photos/img-planeta.png" alt="moon">
+            <div class="square1 square">
+                <h1>3 mil.</h1>
+                <span>doručených zásilek</span>
+            </div>
+            <div class="square2 square">
+                <h1>1 000+</h1>
+                <span>spokojených klientů</span>
+            </div>         
+            <div class="square3 square">
+                <h1>8 let</h1>
+                <span>zkušeností v logistice</span>
+            </div>
+        </div> 
+        <div class="text">
+            <h1>Zkušenost, spolehlivost, rychlost</h1>
+            <p>V oboru logistiky se pohybujeme již více než 8 let, umíme proto velmi dobře předcházet komplikacím a ještě lépe rychle rozklíčovat potřeby našich klientů. I proto jsem za nepříliš dlouhou existenci Bubo trans rozeslali již miliony zásilek a do našeho portfolia posbírali stovky klientů.</p>
+            <button class="button-violet">Více o Bubo<img src="../../../assets/icons/arrow-right-small.svg"></button>
+        </div>     
+    </section>
+    <section class="services" id="services">
+        <h1>Naše služby</h1>
+        <div class="description">
+            <span>Díky naší široké síti přepravních partnerů vám jednoduše a rychle pomůžeme přepravit cokoliv od malé obálky až po celou paletu. Klidně i na druhou stranu zeměkoule.</span>
+            <div>
+                <button (click)="prevServices()"><img class="left" src="../../../assets/icons/arrow-right.svg"></button>
+                <button (click)="nextServices()"><img class="right" src="../../../assets/icons/arrow-right.svg"></button>
+            </div>
+        </div>
+        <div class="carousel">
+            <div class="content" #servicesCarousel id="servicesCarousel">
+                <div>
+                    <div class="card">
+                        <img class="img1" src="../../../assets/icons/icon-car.svg" alt="car">
+                        <div class="text">
+                            <h2 class="top-headline">Expresní</h2>
+                            <h2>kurýr ČR a EU</h2>
+                            <span>Vaší zásilku v co nejkratším možném čase vyzvedneme a v zápětí doručíme kdekoliv v Evropské Unii.</span>
+                        </div>
+                    </div>
+                </div>
+                <div >
+                    <div class="card" id="slide-1">
+                        <img class="img1" src="../../../assets/icons/icon-box.svg" alt="box">
+                        <div class="text">
+                            <h2 class="top-headline">Letecká</h2>
+                            <h2>přeprava</h2>
+                            <span>Díky rozsáhlé síti partnerů doručíme vaší zásilku expresně klidně až na protilehlou stranu Země.</span>
+                        </div>
+                    </div>
+                </div>
+                <div >
+                    <div class="card" >
+                        <img class="img1" src="../../../assets/icons/icon-airplane.svg" alt="airplane">
+                        <div class="text">
+                            <h2>Letecké cargo</h2>
+                            <span>Velkoobjemová přeprava v rámci běžných konsolidovaných linek. Díky tomu dokážeme pružně reagovat na Vaše poptávky k přepravám z různých koutů světa.</span>
+                        </div>
+                    </div>
+                </div>
+                <div >
+                    <div class="card">
+                        <img class="img1" src="../../../assets/icons/icon-ship.svg" alt="ship">
+                        <div class="text">
+                            <h2 class="top-headline">Námořní</h2>
+                            <h2>a vlaková doprava</h2>
+                            <span>Snižte své logistické náklady díky těmto cenově dostupnějším formám přepravy. Skvělá alternativa k letecké přepravě.</span>
+                        </div>
+                    </div>
+                </div>
+                <div >
+                <div class="card" id="slide-3">
+                    <img class="img1" src="../../../assets/icons/icon-truck.svg" alt="truck">
+                    <div class="text">
+                        <h2 class="top-headline">Silniční doprava</h2>
+                        <h4>Kamionová přeprava, dokládky a sběrné služby</h4>
+                        <span>Díky partnerské síti ověřených dodavatelů umíme spedičně pokrýt přepravu paletových zásilek po celé Evropě.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>      
+    </section>
+    <section class="application">
+        <div class="text">
+            <h1>Vyzkoušejte naší novou aplikaci</h1>
+            <span>S aplikací Bubo můžete spravovat všechny své zásilky z jednoho místa, nezávisle na dopravci.</span>
+            <strong>Jednoduše, přehledně a pohodlně.</strong>
+            <button>Vytvořit účet<img src="../../../assets/icons/arrow-right-small.svg"></button>
+        </div>
+        <div class="image">
+            <img src="../../../assets/photos/img-nahled-appky@2x.png" alt="chart">
+        </div>
+    </section>
+    <section class="customers">
+        <h1>100+ zákazníků si již oblíbilo Bubo</h1>
+        <div class="logo-box">
+            <div class="box-top">
+                <img class="logo" src="../../../assets/icons/ref-logo-olymlus.svg" alt="olympus-logo">
+                <img class="logo" src="../../../assets/icons/ref-logo-svetknih.png" alt="olympus-logo">
+                <img class="logo" src="../../../assets/icons/ref-logo-ppf.svg" alt="olympus-logo">
+                <img class="logo" src="../../../assets/icons/ref-logo-strunal.png" alt="olympus-logo">
+                <img class="logo" src="../../../assets/icons/ref-logo-penta.png" alt="olympus-logo">
+            </div>
+            <div class="box-bottom">
+                <img class="logo" src="../../../assets/icons/ref-logo-fujitsu.png" alt="olympus-logo">
+                <img class="logo" src="../../../assets/icons/ref-logo-tesla.png" alt="olympus-logo">
+                <img class="logo" src="../../../assets/icons/ref-logo-dermacol.svg" alt="olympus-logo">
+                <img class="logo" src="../../../assets/icons/ref-logo-arb.png" alt="olympus-logo">
+            </div>
+        </div>      
+    </section>
+    <section class="video" id="video">
+        <div class="video-wrapper" style="border-radius: 20px; overflow: hidden;">
+            <video id="HowItWorksVideo" #HowItWorksVideo width="1400" height="628"
+                src="../../../assets/videos/port.mp4" type="video/mp4"
+                poster="../../../assets/photos/img1.png">
+            </video>
+        </div>
+        <button id="videoAboutButton" #videoAboutButton (click)="playAbout()"></button>
+        <div class="text">
+            <h1>Jak to funguje</h1>
+            <span>Říká se, že jeden obrázek často řekne více než tisíc slov a u videa to platí dvojnásob. Pusťte si naše krátké video a v necelých dvou minutách se dozvíte vše co jste potřebovali vědět. A pokud ne, vše ostatní vám rádi zodpovíme po e-mailu, telefonu, nebo u šálku dobré kávy.</span>
+        </div>
+    </section>
+    <section class="faq" id="faq">
+        <h1>Často kladené dotazy</h1>
+        <div class="container">
+            <div class="box-left">
+                <div class="question">
+                    <div class="top">
+                        <h2>Pro koho je Vaše služba vhodná?</h2>
+                        <button (click)="toggleQuestion(1)"><img class="right" src="../../../assets/icons/arrow-right.svg"></button>                   
+                    </div>
+                    <span *ngIf="openQuestion === 1">Je potřeba si uvědomit, že sazby přepravců jsou postavené na slevách, které se odvíjí od toho, kolik zákazník posílá zásilek, nebo kolik za přepravu utratí. U nás to ale funguje jinak. V přepravě působíme jako zprostředkovatel, mezi zákazníky a dopravci. Vytěžujeme letecké kapacity a nákladové prostory, proto získáváme u různých dodavatelů zajímavé objemové slevy, které Vám můžeme nabídnout. Přeprava tak s námi může být i výhodnější než v porovnání s konkrétním dopravcem.</span>
+                </div>
+                <div class="question">
+                    <div class="top">
+                        <h2>Pro koho je Vaše služba vhodná?</h2>
+                        <button (click)="toggleQuestion(2)"><img class="right" src="../../../assets/icons/arrow-right.svg"></button>                   
+                    </div>
+                    <span *ngIf="openQuestion === 2">Je potřeba si uvědomit, že sazby přepravců jsou postavené na slevách, které se odvíjí od toho, kolik zákazník posílá zásilek, nebo kolik za přepravu utratí. U nás to ale funguje jinak. V přepravě působíme jako zprostředkovatel, mezi zákazníky a dopravci. Vytěžujeme letecké kapacity a nákladové prostory, proto získáváme u různých dodavatelů zajímavé objemové slevy, které Vám můžeme nabídnout. Přeprava tak s námi může být i výhodnější než v porovnání s konkrétním dopravcem.</span>
+                </div>
+                <div class="question">
+                    <div class="top">
+                        <h2>Pro koho je Vaše služba vhodná?</h2>
+                        <button (click)="toggleQuestion(3)"><img class="right" src="../../../assets/icons/arrow-right.svg"></button>                   
+                    </div>
+                    <span *ngIf="openQuestion === 3">Je potřeba si uvědomit, že sazby přepravců jsou postavené na slevách, které se odvíjí od toho, kolik zákazník posílá zásilek, nebo kolik za přepravu utratí. U nás to ale funguje jinak. V přepravě působíme jako zprostředkovatel, mezi zákazníky a dopravci. Vytěžujeme letecké kapacity a nákladové prostory, proto získáváme u různých dodavatelů zajímavé objemové slevy, které Vám můžeme nabídnout. Přeprava tak s námi může být i výhodnější než v porovnání s konkrétním dopravcem.</span>
+                </div>
+                <div class="question">
+                    <div class="top">
+                        <h2>Pro koho je Vaše služba vhodná?</h2>
+                        <button (click)="toggleQuestion(4)"><img class="right" src="../../../assets/icons/arrow-right.svg"></button>                   
+                    </div>
+                    <span *ngIf="openQuestion === 4">Je potřeba si uvědomit, že sazby přepravců jsou postavené na slevách, které se odvíjí od toho, kolik zákazník posílá zásilek, nebo kolik za přepravu utratí. U nás to ale funguje jinak. V přepravě působíme jako zprostředkovatel, mezi zákazníky a dopravci. Vytěžujeme letecké kapacity a nákladové prostory, proto získáváme u různých dodavatelů zajímavé objemové slevy, které Vám můžeme nabídnout. Přeprava tak s námi může být i výhodnější než v porovnání s konkrétním dopravcem.</span>
+                </div>
+                <div class="question">
+                    <div class="top">
+                        <h2>Pro koho je Vaše služba vhodná?</h2>
+                        <button (click)="toggleQuestion(5)"><img class="right" src="../../../assets/icons/arrow-right.svg"></button>                   
+                    </div>
+                    <span *ngIf="openQuestion === 5">Je potřeba si uvědomit, že sazby přepravců jsou postavené na slevách, které se odvíjí od toho, kolik zákazník posílá zásilek, nebo kolik za přepravu utratí. U nás to ale funguje jinak. V přepravě působíme jako zprostředkovatel, mezi zákazníky a dopravci. Vytěžujeme letecké kapacity a nákladové prostory, proto získáváme u různých dodavatelů zajímavé objemové slevy, které Vám můžeme nabídnout. Přeprava tak s námi může být i výhodnější než v porovnání s konkrétním dopravcem.</span>
+                </div>
+                <div class="question">
+                    <div class="top">
+                        <h2>Pro koho je Vaše služba vhodná?</h2>
+                        <button (click)="toggleQuestion(6)"><img class="right" src="../../../assets/icons/arrow-right.svg"></button>                   
+                    </div>
+                    <span *ngIf="openQuestion === 6">Je potřeba si uvědomit, že sazby přepravců jsou postavené na slevách, které se odvíjí od toho, kolik zákazník posílá zásilek, nebo kolik za přepravu utratí. U nás to ale funguje jinak. V přepravě působíme jako zprostředkovatel, mezi zákazníky a dopravci. Vytěžujeme letecké kapacity a nákladové prostory, proto získáváme u různých dodavatelů zajímavé objemové slevy, které Vám můžeme nabídnout. Přeprava tak s námi může být i výhodnější než v porovnání s konkrétním dopravcem.</span>
+                </div>
+                <div class="question">
+                    <div class="top">
+                        <h2>Pro koho je Vaše služba vhodná?</h2>
+                        <button (click)="toggleQuestion(7)"><img class="right" src="../../../assets/icons/arrow-right.svg"></button>                   
+                    </div>
+                    <span *ngIf="openQuestion === 7">Je potřeba si uvědomit, že sazby přepravců jsou postavené na slevách, které se odvíjí od toho, kolik zákazník posílá zásilek, nebo kolik za přepravu utratí. U nás to ale funguje jinak. V přepravě působíme jako zprostředkovatel, mezi zákazníky a dopravci. Vytěžujeme letecké kapacity a nákladové prostory, proto získáváme u různých dodavatelů zajímavé objemové slevy, které Vám můžeme nabídnout. Přeprava tak s námi může být i výhodnější než v porovnání s konkrétním dopravcem.</span>
+                </div>
+            </div>
+            <div class="box-right">
+                <div class="question">
+                    <div class="top">
+                        <h2>Pro koho je Vaše služba vhodná?</h2>
+                        <button (click)="toggleQuestion(8)"><img class="right" src="../../../assets/icons/arrow-right.svg"></button>                   
+                    </div>
+                    <span *ngIf="openQuestion === 8">Je potřeba si uvědomit, že sazby přepravců jsou postavené na slevách, které se odvíjí od toho, kolik zákazník posílá zásilek, nebo kolik za přepravu utratí. U nás to ale funguje jinak. V přepravě působíme jako zprostředkovatel, mezi zákazníky a dopravci. Vytěžujeme letecké kapacity a nákladové prostory, proto získáváme u různých dodavatelů zajímavé objemové slevy, které Vám můžeme nabídnout. Přeprava tak s námi může být i výhodnější než v porovnání s konkrétním dopravcem.</span>
+                </div>
+                <div class="question">
+                    <div class="top">
+                        <h2>Pro koho je Vaše služba vhodná?</h2>
+                        <button (click)="toggleQuestion(9)"><img class="right" src="../../../assets/icons/arrow-right.svg"></button>                   
+                    </div>
+                    <span *ngIf="openQuestion === 9">Je potřeba si uvědomit, že sazby přepravců jsou postavené na slevách, které se odvíjí od toho, kolik zákazník posílá zásilek, nebo kolik za přepravu utratí. U nás to ale funguje jinak. V přepravě působíme jako zprostředkovatel, mezi zákazníky a dopravci. Vytěžujeme letecké kapacity a nákladové prostory, proto získáváme u různých dodavatelů zajímavé objemové slevy, které Vám můžeme nabídnout. Přeprava tak s námi může být i výhodnější než v porovnání s konkrétním dopravcem.</span>
+                </div>
+                <div class="question">
+                    <div class="top">
+                        <h2>Pro koho je Vaše služba vhodná?</h2>
+                        <button (click)="toggleQuestion(10)"><img class="right" src="../../../assets/icons/arrow-right.svg"></button>                   
+                    </div>
+                    <span *ngIf="openQuestion === 10">Je potřeba si uvědomit, že sazby přepravců jsou postavené na slevách, které se odvíjí od toho, kolik zákazník posílá zásilek, nebo kolik za přepravu utratí. U nás to ale funguje jinak. V přepravě působíme jako zprostředkovatel, mezi zákazníky a dopravci. Vytěžujeme letecké kapacity a nákladové prostory, proto získáváme u různých dodavatelů zajímavé objemové slevy, které Vám můžeme nabídnout. Přeprava tak s námi může být i výhodnější než v porovnání s konkrétním dopravcem.</span>
+                </div>
+                <div class="question">
+                    <div class="top">
+                        <h2>Pro koho je Vaše služba vhodná?</h2>
+                        <button (click)="toggleQuestion(11)"><img class="right" src="../../../assets/icons/arrow-right.svg"></button>                   
+                    </div>
+                    <span *ngIf="openQuestion === 11">Je potřeba si uvědomit, že sazby přepravců jsou postavené na slevách, které se odvíjí od toho, kolik zákazník posílá zásilek, nebo kolik za přepravu utratí. U nás to ale funguje jinak. V přepravě působíme jako zprostředkovatel, mezi zákazníky a dopravci. Vytěžujeme letecké kapacity a nákladové prostory, proto získáváme u různých dodavatelů zajímavé objemové slevy, které Vám můžeme nabídnout. Přeprava tak s námi může být i výhodnější než v porovnání s konkrétním dopravcem.</span>
+                </div>
+                <div class="question">
+                    <div class="top">
+                        <h2>Pro koho je Vaše služba vhodná?</h2>
+                        <button (click)="toggleQuestion(12)"><img class="right" src="../../../assets/icons/arrow-right.svg"></button>                   
+                    </div>
+                    <span *ngIf="openQuestion === 12">Je potřeba si uvědomit, že sazby přepravců jsou postavené na slevách, které se odvíjí od toho, kolik zákazník posílá zásilek, nebo kolik za přepravu utratí. U nás to ale funguje jinak. V přepravě působíme jako zprostředkovatel, mezi zákazníky a dopravci. Vytěžujeme letecké kapacity a nákladové prostory, proto získáváme u různých dodavatelů zajímavé objemové slevy, které Vám můžeme nabídnout. Přeprava tak s námi může být i výhodnější než v porovnání s konkrétním dopravcem.</span>
+                </div>
+                <div class="question">
+                    <div class="top">
+                        <h2>Pro koho je Vaše služba vhodná?</h2>
+                        <button (click)="toggleQuestion(13)"><img class="right" src="../../../assets/icons/arrow-right.svg"></button>                   
+                    </div>
+                    <span *ngIf="openQuestion === 13">Je potřeba si uvědomit, že sazby přepravců jsou postavené na slevách, které se odvíjí od toho, kolik zákazník posílá zásilek, nebo kolik za přepravu utratí. U nás to ale funguje jinak. V přepravě působíme jako zprostředkovatel, mezi zákazníky a dopravci. Vytěžujeme letecké kapacity a nákladové prostory, proto získáváme u různých dodavatelů zajímavé objemové slevy, které Vám můžeme nabídnout. Přeprava tak s námi může být i výhodnější než v porovnání s konkrétním dopravcem.</span>
+                </div>
+                <div class="question">
+                    <div class="top">
+                        <h2>Pro koho je Vaše služba vhodná?</h2>
+                        <button (click)="toggleQuestion(14)"><img class="right" src="../../../assets/icons/arrow-right.svg"></button>                   
+                    </div>
+                    <span *ngIf="openQuestion === 14">Je potřeba si uvědomit, že sazby přepravců jsou postavené na slevách, které se odvíjí od toho, kolik zákazník posílá zásilek, nebo kolik za přepravu utratí. U nás to ale funguje jinak. V přepravě působíme jako zprostředkovatel, mezi zákazníky a dopravci. Vytěžujeme letecké kapacity a nákladové prostory, proto získáváme u různých dodavatelů zajímavé objemové slevy, které Vám můžeme nabídnout. Přeprava tak s námi může být i výhodnější než v porovnání s konkrétním dopravcem.</span>
+                </div>
+            </div>
+        </div>      
+    </section>
+    <articles></articles>
+</div>

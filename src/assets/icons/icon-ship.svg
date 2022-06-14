@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="38.485" viewBox="0 0 64 38.485">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_135" data-name="Rectangle 135" width="64" height="38.485" fill="none" stroke="#7041ac" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="icon-ship" transform="translate(0 0)">
+    <line id="Line_30" data-name="Line 30" x2="3.07" transform="translate(22.381 19.802)" fill="none" stroke="#7041ac" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <g id="Group_48" data-name="Group 48" transform="translate(0 0)">
+      <g id="Group_47" data-name="Group 47" clip-path="url(#clip-path)">
+        <path id="Path_81" data-name="Path 81" d="M31.056,12.9H61.931L53.426,30.049H6.159L1,12.9H12.254" transform="translate(0.535 6.901)" fill="none" stroke="#7041ac" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+    <path id="Path_82" data-name="Path 82" d="M43.217,16.206,38.058,6.722H8.5l-2.23,9.483" transform="translate(3.354 3.596)" fill="none" stroke="#7041ac" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <g id="Group_50" data-name="Group 50" transform="translate(0 0)">
+      <g id="Group_49" data-name="Group 49" clip-path="url(#clip-path)">
+        <rect id="Rectangle_136" data-name="Rectangle 136" width="8.576" height="8.785" transform="translate(19.521 1.535)" fill="none" stroke="#7041ac" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

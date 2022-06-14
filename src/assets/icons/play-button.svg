@@ -1,0 +1,8 @@
+<svg id="play-button" xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g id="Ellipse_51" data-name="Ellipse 51" fill="none" stroke="#fff" stroke-width="2">
+    <circle cx="60" cy="60" r="60" stroke="none"/>
+    <circle cx="60" cy="60" r="59" fill="none"/>
+  </g>
+  <circle id="Ellipse_52" data-name="Ellipse 52" cx="60" cy="60" r="60" fill="#fff" opacity="0"/>
+  <path id="Polygon_2" data-name="Polygon 2" d="M27.181,7.4a5,5,0,0,1,8.638,0L58.614,46.481A5,5,0,0,1,54.295,54H8.705a5,5,0,0,1-4.319-7.519Z" transform="translate(95 28.5) rotate(90)" fill="#fff"/>
+</svg>

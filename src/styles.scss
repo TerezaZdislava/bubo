@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --white: #FFFFFF;
+    --light-grey: #F5F7FA;
+    --grey: #AAAAAA;
+    --dark-grey: #4D4D4F;
+    --black: #1A1A1A;
+    --dark-blue: #14274D;
+    --blue: #343E8B;
+    --violet: #7041AC;
+    --pink: #EC008C;
+    --yellow: #F6D900;
+    --margin-box: 260px;
+    --button-pading: 14px 20px;
+}
+body {
+    margin: 0;
+    font-family: 'Fira Sans',  sans-serif;
+    overflow-x: hidden;
+}
+
+html {
+    font-family: 'Fira Sans',  sans-serif;
+    background-color: var(--white);
+}
+
+h1 {
+    margin: 0;
+    color: var(--dark-blue);
+    font-size: 48px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+h3 {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: bold;
+}
+p {
+    color: var(--black);
+    font-size: 18px;
+}
+.color--grey {
+    color: var(--grey);
+}
+.color--white {
+    color: var(--white);
+}
+.color--dark-blue {
+    color: var(--dark-blue);
+}
+.color--violet {
+    color: var(--violet);
+}
+.color--black {
+    color: var(--black);
+}
+button {
+    cursor: pointer;
+}
+.button-violet {
+    background-color: var(--violet);
+    color: white;
+    border-radius: 40px;
+    padding: var(--button-pading);
+    font-size: 18px;
+    border: none;
+    font-family: 'Fira Sans',  sans-serif;
+}

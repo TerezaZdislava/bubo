@@ -1,0 +1,44 @@
+<div class="header">
+    <img class="logo" src="../../../assets/icons/logo-square.svg" alt="logo">
+    <!-- <object data="bubo-app/src/assets/icons/logo - square.svg" width="50" height="50"> </object> -->
+    <div class="links" >
+        <span ><a href="#services">Služby</a></span>
+        <span ><a href="#video">Jak to funguje</a></span>
+        <span ><a href="#faq">FAQ</a></span>
+        <span ><a href="#news">Novinky</a></span>
+        <span ><a href="#contact">Kontakt</a></span>
+    </div>
+    <div class="right-half">
+        <div class="search">
+            <img src="../../../assets/icons/search-icon.svg">
+            <input placeholder="Číslo zásilky">
+        </div>
+        <div class="account">
+            <button class="signin">Přihlásit</button>
+            <button class="login button-violet">Vytvořit účet</button>
+        </div>
+    </div>
+    <img (click)="showMobileMenu()" class="mobile-menu-icon" src="../../../assets/icons/arrow-right.svg">
+</div>
+<div class="background" (click)="showMobileMenu()" *ngIf="mobileMenu"></div>
+<div class="mobile-menu" *ngIf="mobileMenu">
+    <div class="content">
+        <div class="links">
+            <span><a href="#services">Služby</a></span>
+            <span><a href="#video">Jak to funguje</a></span>
+            <span><a href="#faq">FAQ</a></span>
+            <span><a href="#news">Novinky</a></span>
+            <span><a href="#contact">Kontakt</a></span>
+        </div>
+        <hr>
+        <div class="account">
+            <button class="signin">Přihlásit</button>
+            <button class="login button-violet">Vytvořit účet</button>
+        </div>
+        <div class="search">
+            <img src="../../../assets/icons/search-icon.svg">
+            <input placeholder="Číslo zásilky">
+        </div>
+    </div>
+</div>
+
